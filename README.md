@@ -9,6 +9,9 @@ HistoryFlow is a full-stack web app that generates dynamic historical timelines 
 ### 🏠 Home
 ![Home](./screenshots/home.png)
 
+### ⚙️ Experience Options
+![Options](./screenshots/options.png)
+
 ### 🫧 Interactive Bubbles
 ![Bubbles](./screenshots/bubbles.png)
 
@@ -18,8 +21,6 @@ HistoryFlow is a full-stack web app that generates dynamic historical timelines 
 ### 🗂 Database Timeline
 ![DB Timeline](./screenshots/dbTimeline.png)
 
-### ⚙️ Experience Options
-![Options](./screenshots/options.png)
 
 
 🚀 Features
