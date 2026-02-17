@@ -28,22 +28,22 @@ Deployment: Vercel.
 
 
 📦 Installation & Setup
-1.Clone the repository:
+#Clone the repository:
 git clone https://github.com/YOUR_USERNAME/historyflow.git
 
-2.Install dependencies for both client and server:
+#Install dependencies for both client and server:
 cd react-timeline && npm install
 cd server && npm install
 
-3.Create a .env file in the server folder and add:
+#Create a .env file in the server folder and add:
 MONGODB_URI=your_mongodb_connection_string
 GEMINI_API_KEY=your_key
 UNSPLASH_ACCESS_KEY=your_key
 JWT_SECRET=your_secret
 
-4.Run the project:
-# In one terminal
+#Run the project:
+In one terminal
 npm start
-# In another (for the server)
+In another (for the server)
 cd server && node server.js
 
