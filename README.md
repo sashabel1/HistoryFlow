@@ -1,4 +1,5 @@
 HistoryFlow ⏳
+
 AI-Powered Interactive Timeline Generator
 
 HistoryFlow is a full-stack web application that allows users to explore history dynamically.
@@ -29,21 +30,31 @@ Deployment: Vercel.
 
 📦 Installation & Setup
 Clone the repository:
-git clone [https://github.com/YOUR_USERNAME/historyflow.git](https://github.com/sashabel1/HistoryFlow)
 
+Bash
+git clone https://github.com/YOUR_USERNAME/historyflow.git
 Install dependencies for both client and server:
-cd react-timeline && npm install
-cd server && npm install
 
+Bash
+# Install frontend dependencies
+cd react-timeline && npm install
+
+# Install backend dependencies
+cd ../server && npm install
+Environment Variables:
 Create a .env file in the server folder and add:
+
+Code snippet
 MONGODB_URI=your_mongodb_connection_string
 GEMINI_API_KEY=your_key
 UNSPLASH_ACCESS_KEY=your_key
 JWT_SECRET=your_secret
-
 Run the project:
-In one terminal
-npm start
-In another (for the server)
+
+Terminal 1 (Frontend): ```bash
+cd react-timeline && npm start
+
+Terminal 2 (Server): ```bash
 cd server && node server.js
+
 
