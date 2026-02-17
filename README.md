@@ -38,34 +38,53 @@ Secure authentication (JWT + Bcrypt)
 🛠 Tech Stack
 
 Frontend: React, Tailwind CSS
+
 Backend: Node.js, Express
+
 Database: MongoDB (Mongoose)
+
 APIs: Gemini AI, Wikipedia API, Unsplash
+
 Deployment: Vercel
 
 ⚙️ Installation
-git clone https://github.com/YOUR_USERNAME/historyflow.git
+
+git clone [https://github.com/YOUR_USERNAME/historyflow.git](https://github.com/sashabel1/HistoryFlow)
 
 Install dependencies
+
 # Frontend
+
 cd react-timeline
+
 npm install
 
 # Backend
+
 cd ../server
+
 npm install
 
 Environment Variables (.env in server folder)
+
 MONGODB_URI=your_mongodb_connection_string
+
 GEMINI_API_KEY=your_key
+
 UNSPLASH_ACCESS_KEY=your_key
+
 JWT_SECRET=your_secret
 
 Run the project
+
 # Frontend
+
 cd react-timeline
+
 npm start
 
 # Backend
+
 cd server
+
 node server.js
