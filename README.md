@@ -23,6 +23,7 @@ HistoryFlow is a full-stack web app that generates dynamic historical timelines 
 
 
 
+
 🚀 Features
 
 AI-powered topic search (Wikipedia + Gemini AI)
@@ -35,6 +36,8 @@ Automatic event images (Unsplash API)
 
 Secure authentication (JWT + Bcrypt)
 
+
+
 🛠 Tech Stack
 
 Frontend: React, Tailwind CSS
@@ -46,6 +49,8 @@ Database: MongoDB (Mongoose)
 APIs: Gemini AI, Wikipedia API, Unsplash
 
 Deployment: Vercel
+
+
 
 ⚙️ Installation
 
