@@ -28,20 +28,20 @@ Deployment: Vercel.
 
 
 📦 Installation & Setup
-#Clone the repository:
-git clone https://github.com/YOUR_USERNAME/historyflow.git
+Clone the repository:
+git clone [https://github.com/YOUR_USERNAME/historyflow.git](https://github.com/sashabel1/HistoryFlow)
 
-#Install dependencies for both client and server:
+Install dependencies for both client and server:
 cd react-timeline && npm install
 cd server && npm install
 
-#Create a .env file in the server folder and add:
+Create a .env file in the server folder and add:
 MONGODB_URI=your_mongodb_connection_string
 GEMINI_API_KEY=your_key
 UNSPLASH_ACCESS_KEY=your_key
 JWT_SECRET=your_secret
 
-#Run the project:
+Run the project:
 In one terminal
 npm start
 In another (for the server)
